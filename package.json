@@ -1,0 +1,23 @@
+{
+  "name": "nodeJSAdventure",
+  "version": "0.0.1",
+  "description": "Express app with EJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+	"express": "*", 
+	 "ejs": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vamsivarma/nodeJSAdventure.git"
+  },
+  "author": "Vamsi Varma",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/vamsivarma/nodeJSAdventure/issues"
+  },
+  "homepage": "https://github.com/vamsivarma/nodeJSAdventure"
+}
