@@ -1,14 +1,23 @@
 {
   "name": "nodeJSAdventure",
   "version": "0.0.1",
-  "description": "Express app with EJS",
+  "description": "Express framework with Jade and Stylus",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-	"express": "*", 
-	 "ejs": "*"
+    "express": "*",
+    "jade": "*",
+    "nib": "*",
+    "stylus": "*",
+    "mongodb": "*",
+    "monk": "*",
+	"body-parser": "*",
+	"method-override": "*",
+	"cookie-parser": "*",
+	"express-session": "*"
+
   },
   "repository": {
     "type": "git",
