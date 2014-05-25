@@ -43,7 +43,7 @@ app.use(bodyParser());
 app.use(methodOverride());
 app.use(cookieParser('mykey'));
 app.use(session());
-app.use(app.router());
+//app.use(app.router());
 
 //Stylus Middleware
 //For handling incoming requests
@@ -63,7 +63,7 @@ console.log('Stylus has been initialized successfully');
 app.get('/', routes.index);
 app.get('/users', user.list);
 app.get('/userlist',routes.userlist(db));
-app.get('/adduser',routes.adduser(db));
+app.post('/adduser',routes.adduser(db));
 
 
 app.listen(portnumber);
